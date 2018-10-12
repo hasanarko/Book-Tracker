@@ -1,0 +1,98 @@
+@media only screen and (min-width: 992px) {
+    #id_1{
+        padding: 10px;
+    }
+    .li_space{
+        margin-right: 25px;
+        border-radius: 2px;
+        padding: 7px;
+    }
+    #navbar_link a{
+        transition: background-color 0.9s, border-color 0.9s;
+        font-size: 18px;
+        color: white;
+        font-weight: 300;
+    }
+    #navbar_link a:hover{
+        background-color: #3498db;
+        border-color: #3498db;
+        border-radius: 2px;
+    }
+    #login_reg_btn{
+        position: absolute;
+        right: 20px;
+    }
+    #login_reg_btn button{
+        margin-left: 10px;
+    }
+    #td_space{
+        padding-bottom: 0px;
+    }
+    #bookImage{
+        width: 340px;
+    }
+
+}
+
+/* Only for small Screen */
+@media only screen and (max-width: 600px) {
+    #bookImage{
+        width: 140px;
+    }
+}
+
+/* Universal */
+
+#importantBtn button{
+    margin-right: 10px;
+}
+
+#logo_main{
+    background-color: grey;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+#page-heading{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 25px;
+    font-weight: 300;
+}
+#bookImage{
+    border: 5px solid black;
+    border-radius: 4px;
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+#action-button{
+    margin: 0px 0px 20px 0px;
+}
+#msg_padding{
+    padding-top: 10px;
+}
+#msg_padding2{
+    padding-bottom: 10px;
+}
+#footerPadding{
+    margin-bottom: 0;
+    padding: 20px;
+}
+.make_text_center{
+    text-align: center;
+}
+.table-header{
+    padding: 10px;
+    background-color: #34495e;
+    color: white;
+    font-weight: 300;
+}
